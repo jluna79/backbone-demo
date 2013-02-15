@@ -1,0 +1,116 @@
+/* GENERIC CONTROLLS */
+table {
+	width: 550px;
+}
+
+td {
+	color: #666;
+}
+
+/************* READ ME **************************
+This texts describes the needed elements and Behavior specific classes used:
+ 
+NEEDED ELEMENTS
+ 
+1) TR for each message
+2) Each TR MUST have at least the following table data cell (TD) for displaying elemnents:
+	2.1) A "state" cell MUST EXIST and have the "state" class applied. Also, a link that will perform the call for state change must be in place.
+		2.1.1) The "state" cell must have a "priority" empty span. This will be used for displaying the priority icon.
+	2.2) A "subject" cell MUST EXIST with the class "subject" applied. This will be used for displaying the name of the communication
+	2.3) A "trash" cell MUST EXIST for displaying the link (A) that will perform the call for state change
+
+An example of a valid row would be:
+      <tr>
+        <td><input type="checkbox"/></td>
+        <td class="state"><span></span><a href="#">Click</a></td>
+        <td class="subject"><a href="#" title="Pulse para cambiar de estado">Email Priority Unread</a></td>
+        <td class="date">06-07-2012</td>
+        <td class="trash"><a href="#">Del</a></td>
+      </tr>
+
+3) All significant classes for state changes will be applied directly to the TR element for each message. The valid classes are:
+	3.1) "" (optionally "read"): By default the messages are "read" if no class is given. This will thisplay the proper icon (open envelope)
+	3.2) "unread": Messages that have not been read. Will set text in bold and a proper icon (closed envelope)
+	3.3) "paper": Used to mark a communicaton as sent by paper. This will display the proper icon (red closed/open envelope depending on status)
+	3.4) "priority": Displays the exclamation mark, used for priority messages
+	3.5) "nulled: For nulled messages, will strike-trhough the subject text
+	
+All classes are independent from each other and can be combined (order does not matter). For example a "priority nulled paper unread communication" would be set as:
+
+	<tr class="priority nulled paper unread">
+	...
+	</tr>
+
+	OPTIONAL 
+	* This could be made even more specific by adding a class for the table
+	
+***********************************************/
+/*Unread styles*/
+.unread > td {
+	font-weight: bold;
+	color: #000;
+}
+
+/*Priority messages*/
+.state span {
+	display: block;
+	width: 7px;
+	height: 16px;
+	background:url('../img/inbox-sprites.png') 0 0; /*not priority by default*/
+	float: left;
+}
+
+.priority .state span {
+	 background:url('../img/inbox-sprites.png') 0 16px;
+}
+
+/*Nulled messages*/
+.nulled .subject {
+	text-decoration: line-through;
+}
+
+/*=== Read/Unread toggle and left-side controlls (set as unread) when deleted */
+.state a,
+.read .state a {
+	text-indent: -5000px;
+	display:block;
+	margin-left: 12px;
+	width: 14px;
+	height: 16px;
+	background:url('../img/inbox-sprites.png') -7px 16px; /*electronic read by default*/	
+}
+
+.unread .state a,
+.deleted .state a {
+	background:url('../img/inbox-sprites.png') -7px 0; /*electronic unread*/
+}
+
+/*= Same but for paper messages */
+.paper .state a ,
+.paper.read .state a
+{
+	background:url('../img/inbox-sprites.png') -21px 16px; /* paper read by default*/	
+}
+
+.paper.unread .state a,
+.deleted.paper .state a {
+	background:url('../img/inbox-sprites.png') -21px 0; /* paper unread*/
+}
+
+/*=== Move to trash toggle and right-side controlls (set as read) when deleted */
+.trash a {
+	text-indent: -5000px;
+	display: block;
+	width: 14px;
+	height: 16px;
+	background:url('../img/inbox-sprites.png') -35px 0; /*electronic read by default*/
+}
+
+/* Changes in state after deleted */
+.deleted .trash a{
+	background:url('../img/inbox-sprites.png') -7px 16px; /*electronic read*/
+}
+
+.deleted.paper .trash a{
+	background:url('../img/inbox-sprites.png') -21px 16px; /* paper read by default*/	
+}

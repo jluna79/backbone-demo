@@ -1,0 +1,284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"tw",
+				"tweets"
+			],
+			[
+				"twi",
+				"twitterUrl"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"l",
+				"label"
+			],
+			[
+				"hea",
+				"header"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sftped",
+				"SFTP: Edit Remote Mapping…"
+			],
+			[
+				"swit",
+				"SFTP: Switch Remote Mapping…"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/canteratech/Documents/flickrFilter.sh",
+		"/Users/canteratech/Documents/flickrFilter.py",
+		"/Users/canteratech/Sites/fielder/js/main.js",
+		"/Users/canteratech/Sites/nodetest/templates/layout.html",
+		"/Users/canteratech/Sites/nodetest/app.js",
+		"/Users/canteratech/Sites/nodetest/views/layout.ejs",
+		"/Users/canteratech/Sites/nodetest/views/tweets.ejs",
+		"/Users/canteratech/Sites/nodetest/uploadsrv.coffee",
+		"/Users/canteratech/Sites/nodetest/app.coffee",
+		"/Users/canteratech/Sites/nodetest/uploadsrv.js",
+		"/Users/canteratech/Sites/nodetest/echosrv.js",
+		"/Users/canteratech/Sites/nodetest/hello.js",
+		"/Users/canteratech/Sites/nodetest/hello.coffee",
+		"/Users/canteratech/Sites/nodetest/echosrv.coffee",
+		"/Users/canteratech/Sites/nodetest/nodetest.sublime-project",
+		"/Users/canteratech/Sites/cantera-tech/concrete/blocks/form/controller.php",
+		"/Users/canteratech/Sites/cantera-tech/themes/cantera-tech/static/js/courses.js",
+		"/Users/canteratech/Sites/cantera-tech/themes/cantera-tech/static/js/courses.min.js",
+		"/Users/canteratech/Sites/cantera-tech/sftp-config.json",
+		"/Users/canteratech/Sites/cantera-tech/cantera-tech.sublime-project",
+		"/Users/canteratech/Sites/cantera-tech/sftp-config-alt.json",
+		"/Users/canteratech/Sites/scratch/bootstrap/index.html",
+		"/Users/canteratech/Sites/scratch/hbp/css/main.css",
+		"/Users/canteratech/Sites/scratch/hbp/index.html",
+		"/Users/canteratech/index.html",
+		"/Users/canteratech/Sites/scratch/index.html",
+		"/Users/canteratech/Sites/scratch/scratch.sublime-project",
+		"/Users/canteratech/Dropbox/Courses/WebDesign from scratch/workshop/00_basic.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"youtube",
+			"response",
+			"location_mj",
+			"submit_form",
+			"formacion",
+			"formacion/",
+			"formAction"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"lay",
+				"templates/layout.html"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"tw",
+				"templates/tweets.html"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"upl",
+				"uploadsrv.js"
+			],
+			[
+				"echo",
+				"echosrv.coffee"
+			],
+			[
+				"echos",
+				"echosrv.js"
+			],
+			[
+				"block_form",
+				"concrete/mail/block_form_submission.php"
+			],
+			[
+				"inde",
+				"hbp/index.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"01",
+				"01_zencoding.html"
+			],
+			[
+				"00",
+				"00_basic.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true
+}
